@@ -1,0 +1,7 @@
+{
+  "val_accuracy_manual": 0.3340732519422864,
+  "train_time_sec": 12246.540519475937,
+  "epochs": 5,
+  "lr": 0.0001,
+  "weight_decay": 1e-06
+}

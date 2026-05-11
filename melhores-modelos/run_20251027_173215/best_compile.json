@@ -1,0 +1,51 @@
+{
+  "optimizer": {
+    "module": "keras.optimizers",
+    "class_name": "AdamW",
+    "config": {
+      "name": "adamw",
+      "learning_rate": 0.0003000000142492354,
+      "weight_decay": 1e-05,
+      "clipnorm": null,
+      "global_clipnorm": null,
+      "clipvalue": null,
+      "use_ema": false,
+      "ema_momentum": 0.99,
+      "ema_overwrite_frequency": null,
+      "loss_scale_factor": null,
+      "gradient_accumulation_steps": null,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "epsilon": 1e-07,
+      "amsgrad": false
+    },
+    "registered_name": null
+  },
+  "loss": {
+    "module": "keras.losses",
+    "class_name": "SparseCategoricalCrossentropy",
+    "config": {
+      "name": "sparse_categorical_crossentropy",
+      "reduction": "sum_over_batch_size",
+      "from_logits": false,
+      "ignore_class": null
+    },
+    "registered_name": null
+  },
+  "metrics": [
+    {
+      "module": "keras.metrics",
+      "class_name": "Mean",
+      "config": {
+        "name": "loss",
+        "dtype": "float32"
+      },
+      "registered_name": null
+    },
+    {
+      "__unserializable__": "<CompileMetrics name=compile_metrics>",
+      "type": "CompileMetrics"
+    }
+  ],
+  "weighted_metrics": []
+}

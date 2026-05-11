@@ -1,0 +1,4 @@
+model_name=CustomSimpleMammoCNN
+total_params=928553
+trainable_params=927651
+non_trainable_params=902
