@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Local datasets
+dataset/
+datasets/
+data/
+Mammo-Bench/
+
+# New training outputs generated after this cleanup.
+# Files already tracked by Git are not removed by this file.
+outputs/
+tb/
+logs/
+*.tfevents*
+events.out.tfevents*
+
+# Large model artifacts generated in future runs.
+# Existing saved models in melhores-modelos/ are intentionally preserved.
+*.keras
+*.h5
+*.ckpt
+checkpoint
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*.docx
+
